@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - '*.cjs'
+      - 'personal-map.bin'
       - 'engine/**'
       - 'sources.json'
       - 'base.xml.gz'
@@ -35,6 +36,8 @@ jobs:
       - name: Comprobar el generador
         run: node --test test/*.test.cjs
       - name: Generar guía XMLTV
+        env:
+          PERSONAL_EPG_KEY: ${{ secrets.PERSONAL_EPG_KEY }}
         run: node generate.cjs
       - name: Publicar únicamente el EPG
         env:
@@ -45,6 +48,9 @@ jobs:
             gh release create epg --title 'PiiZiTV · EPG actualizado' --notes 'Guía XMLTV creada con fuentes públicas. No contiene listas M3U ni accesos a canales.' --latest
           fi
           gh release upload epg dist/guia.xml.gz dist/guia.xml dist/estado.json --clobber
+          if [ -f dist/personal.xml.gz.enc ]; then
+            gh release upload epg dist/personal.xml.gz.enc dist/personal-status.json.enc --clobber
+          fi
       - name: Registrar la actualización sin guardar el historial de las guías
         run: |
           cp dist/estado.json estado.json

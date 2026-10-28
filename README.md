@@ -28,3 +28,7 @@ Fuentes: EPGShare01, TDTChannels, IPTV-EPG.org, Open-EPG, EPG.pw, EPGTalk y los 
 La versión de asociación 2 amplía los identificadores XMLTV públicos y añade nombres alternativos de emisoras en todos los países de la guía, incluyendo variantes HD, SD, FHD, UHD y 4K. Se conservan separados los canales numerados y las emisiones +1. Los nombres ambiguos entre países se omiten como equivalencias sin país para no asociar otra señal.
 
 Los nombres alternativos pueden facilitar la búsqueda y la asociación cuando el reproductor los admite. No sustituyen un identificador ausente: una lista con NULL o un identificador erróneo puede necesitar asignación manual. No se publica ninguna lista de reproducción ni configuración de una cuenta IPTV.
+
+## EPG personal opcional
+
+El generador admite asociaciones privadas cifradas en `personal-map.bin`. Solo admiten nombres de emisoras, país e identificadores EPG; se rechazan campos de reproducción y direcciones web. La clave se guarda como secreto de Actions (`PERSONAL_EPG_KEY`), nunca en el repositorio. Las salidas personales también se publican cifradas y requieren un servidor autenticado para descargarlas como XMLTV. Se regeneran con las mismas fuentes y frecuencia que el EPG público. Los identificadores compartidos por señales distintas se excluyen para evitar mezclas; los canales sin horarios verificados no reciben programas ficticios.
