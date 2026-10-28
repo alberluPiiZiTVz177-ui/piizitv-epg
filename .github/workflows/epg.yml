@@ -45,3 +45,13 @@ jobs:
             gh release create epg --title 'PiiZiTV · EPG actualizado' --notes 'Guía XMLTV creada con fuentes públicas. No contiene listas M3U ni accesos a canales.' --latest
           fi
           gh release upload epg dist/guia.xml.gz dist/guia.xml dist/estado.json --clobber
+      - name: Registrar la actualización sin guardar el historial de las guías
+        run: |
+          cp dist/estado.json estado.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add estado.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualizar estado público del EPG'
+            git push
+          fi
