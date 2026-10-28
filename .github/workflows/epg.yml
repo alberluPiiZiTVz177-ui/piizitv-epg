@@ -1,0 +1,47 @@
+name: Actualizar EPG público
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 1,7,13,19 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '*.cjs'
+      - 'engine/**'
+      - 'sources.json'
+      - 'base.xml.gz'
+      - 'test/**'
+      - '.github/workflows/epg.yml'
+permissions:
+  contents: write
+concurrency:
+  group: epg-publicacion
+  cancel-in-progress: false
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Recuperar caché de fuentes públicas
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: epg-publico-v1-${{ github.run_id }}
+          restore-keys: epg-publico-v1-
+      - name: Comprobar el generador
+        run: node --test test/*.test.cjs
+      - name: Generar guía XMLTV
+        run: node generate.cjs
+      - name: Publicar únicamente el EPG
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          if ! gh release view epg >/dev/null 2>&1; then
+            gh release create epg --title 'PiiZiTV · EPG actualizado' --notes 'Guía XMLTV creada con fuentes públicas. No contiene listas M3U ni accesos a canales.' --latest
+          fi
+          gh release upload epg dist/guia.xml.gz dist/guia.xml dist/estado.json --clobber

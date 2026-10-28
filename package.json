@@ -1,0 +1,13 @@
+{
+  "name": "piizitv-public-epg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Guía XMLTV generada exclusivamente a partir de fuentes públicas, sin listas de reproducción.",
+  "scripts": {
+    "test": "node --test test/*.test.cjs",
+    "generate": "node generate.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

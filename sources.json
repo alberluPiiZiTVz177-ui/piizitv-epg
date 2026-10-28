@@ -1,0 +1,493 @@
+[
+  {
+    "id": "share-ES1",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz",
+    "regions": [
+      "ES"
+    ]
+  },
+  {
+    "id": "tdt",
+    "url": "https://www.tdtchannels.com/epg/TV.xml.gz",
+    "regions": [
+      "ES"
+    ]
+  },
+  {
+    "id": "other-es",
+    "url": "https://iptv-epg.org/files/epg-es.xml.gz",
+    "regions": [
+      "ES"
+    ]
+  },
+  {
+    "id": "share-FR1",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz",
+    "regions": [
+      "FR",
+      "AF"
+    ]
+  },
+  {
+    "id": "other-fr",
+    "url": "https://iptv-epg.org/files/epg-fr.xml.gz",
+    "regions": [
+      "FR",
+      "AF"
+    ]
+  },
+  {
+    "id": "share-PT1",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz",
+    "regions": [
+      "PT"
+    ]
+  },
+  {
+    "id": "other-pt",
+    "url": "https://iptv-epg.org/files/epg-pt.xml.gz",
+    "regions": [
+      "PT"
+    ]
+  },
+  {
+    "id": "share-NL1",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz",
+    "regions": [
+      "NL"
+    ]
+  },
+  {
+    "id": "other-nl",
+    "url": "https://iptv-epg.org/files/epg-nl.xml.gz",
+    "regions": [
+      "NL"
+    ]
+  },
+  {
+    "id": "share-UK1",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz",
+    "regions": [
+      "GB"
+    ]
+  },
+  {
+    "id": "other-gb",
+    "url": "https://iptv-epg.org/files/epg-gb.xml.gz",
+    "regions": [
+      "GB"
+    ]
+  },
+  {
+    "id": "share-IT1",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz",
+    "regions": [
+      "IT"
+    ]
+  },
+  {
+    "id": "other-it",
+    "url": "https://iptv-epg.org/files/epg-it.xml.gz",
+    "regions": [
+      "IT"
+    ]
+  },
+  {
+    "id": "share-DE1",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz",
+    "regions": [
+      "DE"
+    ]
+  },
+  {
+    "id": "other-de",
+    "url": "https://iptv-epg.org/files/epg-de.xml.gz",
+    "regions": [
+      "DE"
+    ]
+  },
+  {
+    "id": "share-BE2",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz",
+    "regions": [
+      "BE"
+    ]
+  },
+  {
+    "id": "other-be",
+    "url": "https://iptv-epg.org/files/epg-be.xml.gz",
+    "regions": [
+      "BE"
+    ]
+  },
+  {
+    "id": "share-CA2",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
+    "regions": [
+      "CA"
+    ]
+  },
+  {
+    "id": "other-ca",
+    "url": "https://iptv-epg.org/files/epg-ca.xml.gz",
+    "regions": [
+      "CA"
+    ]
+  },
+  {
+    "id": "share-TR1",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz",
+    "regions": [
+      "TR"
+    ]
+  },
+  {
+    "id": "share-TR3",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz",
+    "regions": [
+      "TR"
+    ]
+  },
+  {
+    "id": "other-tr",
+    "url": "https://iptv-epg.org/files/epg-tr.xml.gz",
+    "regions": [
+      "TR"
+    ]
+  },
+  {
+    "id": "share-AE1",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_AE1.xml.gz",
+    "regions": [
+      "ARAB",
+      "MA",
+      "DZ",
+      "TN"
+    ]
+  },
+  {
+    "id": "share-BEIN1",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_BEIN1.xml.gz",
+    "regions": [
+      "ARAB",
+      "MA",
+      "DZ",
+      "TN"
+    ]
+  },
+  {
+    "id": "share-ALJAZEERA1",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_ALJAZEERA1.xml.gz",
+    "regions": [
+      "ARAB",
+      "MA",
+      "DZ",
+      "TN"
+    ]
+  },
+  {
+    "id": "share-NG1",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_NG1.xml.gz",
+    "regions": [
+      "AF"
+    ]
+  },
+  {
+    "id": "share-ZA1",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz",
+    "regions": [
+      "AF"
+    ]
+  },
+  {
+    "id": "other-ng",
+    "url": "https://iptv-epg.org/files/epg-ng.xml.gz",
+    "regions": [
+      "AF"
+    ]
+  },
+  {
+    "id": "other-za",
+    "url": "https://iptv-epg.org/files/epg-za.xml.gz",
+    "regions": [
+      "AF"
+    ]
+  },
+  {
+    "id": "open-FR",
+    "url": "https://www.open-epg.com/files/france.xml.gz",
+    "regions": [
+      "FR"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "open-ES",
+    "url": "https://www.open-epg.com/files/spain.xml.gz",
+    "regions": [
+      "ES"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "open-NL",
+    "url": "https://www.open-epg.com/files/netherlands.xml.gz",
+    "regions": [
+      "NL"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "open-GB",
+    "url": "https://www.open-epg.com/files/unitedkingdom.xml.gz",
+    "regions": [
+      "GB"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "open-DE",
+    "url": "https://www.open-epg.com/files/germany.xml.gz",
+    "regions": [
+      "DE"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "open-BE",
+    "url": "https://www.open-epg.com/files/belgium.xml.gz",
+    "regions": [
+      "BE"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "open-CA",
+    "url": "https://www.open-epg.com/files/canada.xml.gz",
+    "regions": [
+      "CA"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "share-SA2",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_SA2.xml.gz",
+    "regions": [
+      "ARAB",
+      "MA",
+      "DZ",
+      "TN"
+    ]
+  },
+  {
+    "id": "share-KE1",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_KE1.xml.gz",
+    "regions": [
+      "AF"
+    ]
+  },
+  {
+    "id": "PlutoTV-es",
+    "url": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/es.xml.gz",
+    "regions": [
+      "ES"
+    ],
+    "refreshHours": 6
+  },
+  {
+    "id": "community-ArabicEPG",
+    "url": "https://raw.githubusercontent.com/GhalebAldoboni/EPG-Guide/master/ArabicEPG.xml",
+    "regions": [
+      "ARAB",
+      "MA",
+      "DZ",
+      "TN"
+    ],
+    "refreshHours": 6
+  },
+  {
+    "id": "pw-GB",
+    "url": "https://epg.pw/xmltv/epg_GB.xml.gz",
+    "regions": [
+      "GB"
+    ],
+    "refreshHours": 6
+  },
+  {
+    "id": "open-Turkey-1",
+    "url": "https://www.open-epg.com/files/turkey1.xml.gz",
+    "regions": [
+      "TR"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "open-Saudi-Arabia-2",
+    "url": "https://www.open-epg.com/files/saudiarabia2.xml.gz",
+    "regions": [
+      "ARAB",
+      "MA",
+      "DZ",
+      "TN"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "PlutoTV-ca",
+    "url": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/ca.xml.gz",
+    "regions": [
+      "CA"
+    ],
+    "refreshHours": 6
+  },
+  {
+    "id": "open-Egypt-2",
+    "url": "https://www.open-epg.com/files/egypt2.xml.gz",
+    "regions": [
+      "ARAB",
+      "MA",
+      "DZ",
+      "TN"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "talk-uk",
+    "url": "https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/UK_guide.xml.gz",
+    "regions": [
+      "GB"
+    ],
+    "refreshHours": 6
+  },
+  {
+    "id": "open-Senegal-1",
+    "url": "https://www.open-epg.com/files/senegal1.xml.gz",
+    "regions": [
+      "AF"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "open-Turkey-2",
+    "url": "https://www.open-epg.com/files/turkey2.xml.gz",
+    "regions": [
+      "TR"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "SamsungTVPlus-fr",
+    "url": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/fr.xml.gz",
+    "regions": [
+      "FR"
+    ],
+    "refreshHours": 6
+  },
+  {
+    "id": "open-Saudi-Arabia-5",
+    "url": "https://www.open-epg.com/files/saudiarabia5.xml.gz",
+    "regions": [
+      "ARAB",
+      "MA",
+      "DZ",
+      "TN"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "SamsungTVPlus-es",
+    "url": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/es.xml.gz",
+    "regions": [
+      "ES"
+    ],
+    "refreshHours": 6
+  },
+  {
+    "id": "open-Italy-8",
+    "url": "https://www.open-epg.com/files/italy8.xml.gz",
+    "regions": [
+      "IT"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "open-Turkey-5",
+    "url": "https://www.open-epg.com/files/turkey5.xml.gz",
+    "regions": [
+      "TR"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "Plex-fr",
+    "url": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Plex/fr.xml.gz",
+    "regions": [
+      "FR"
+    ],
+    "refreshHours": 6
+  },
+  {
+    "id": "open-Italy-3",
+    "url": "https://www.open-epg.com/files/italy3.xml.gz",
+    "regions": [
+      "IT"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "open-Italy-5",
+    "url": "https://www.open-epg.com/files/italy5.xml.gz",
+    "regions": [
+      "IT"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "PlutoTV-de",
+    "url": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/de.xml.gz",
+    "regions": [
+      "DE"
+    ],
+    "refreshHours": 6
+  },
+  {
+    "id": "Plex-ca",
+    "url": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Plex/ca.xml.gz",
+    "regions": [
+      "CA"
+    ],
+    "refreshHours": 6
+  },
+  {
+    "id": "SamsungTVPlus-it",
+    "url": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/it.xml.gz",
+    "regions": [
+      "IT"
+    ],
+    "refreshHours": 6
+  },
+  {
+    "id": "open-Portugal-2",
+    "url": "https://www.open-epg.com/files/portugal2.xml.gz",
+    "regions": [
+      "PT"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "open-Turkey-4",
+    "url": "https://www.open-epg.com/files/turkey4.xml.gz",
+    "regions": [
+      "TR"
+    ],
+    "refreshHours": 24
+  },
+  {
+    "id": "open-Uganda-1",
+    "url": "https://www.open-epg.com/files/uganda1.xml.gz",
+    "regions": [
+      "AF"
+    ],
+    "refreshHours": 24
+  }
+]

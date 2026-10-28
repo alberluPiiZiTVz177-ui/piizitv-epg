@@ -1,0 +1,8 @@
+.cache/
+dist/
+node_modules/
+.env
+*.enc
+*.m3u
+*.m3u8
+*private*
