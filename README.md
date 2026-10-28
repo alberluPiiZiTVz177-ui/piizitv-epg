@@ -22,3 +22,9 @@ Requiere Node.js 22 o posterior. No necesita dependencias externas.
 Los resultados se escriben en dist/. Solo se publican guia.xml, guia.xml.gz y estado.json. Los ficheros de programación no se acumulan en el historial Git; se sustituyen en la misma publicación.
 
 Fuentes: EPGShare01, TDTChannels, IPTV-EPG.org, Open-EPG, EPG.pw, EPGTalk y los repositorios públicos de guías de Pluto TV, Samsung TV Plus y Plex. Sus direcciones concretas están en sources.json. La disponibilidad depende de cada fuente.
+
+## Equivalencias de nombres
+
+La versión de asociación 2 amplía los identificadores XMLTV públicos y añade nombres alternativos de emisoras en todos los países de la guía, incluyendo variantes HD, SD, FHD, UHD y 4K. Se conservan separados los canales numerados y las emisiones +1. Los nombres ambiguos entre países se omiten como equivalencias sin país para no asociar otra señal.
+
+Los nombres alternativos pueden facilitar la búsqueda y la asociación cuando el reproductor los admite. No sustituyen un identificador ausente: una lista con NULL o un identificador erróneo puede necesitar asignación manual. No se publica ninguna lista de reproducción ni configuración de una cuenta IPTV.
